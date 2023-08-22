@@ -1,11 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
+    
 }
 
 
+
+
 body{
+
     font-family: 'Montserrat' , sans-serif;
     font-weight: 200;
     color: var(--tg-theme-text-color) ;
@@ -13,6 +17,8 @@ body{
 }
 
 #main{
+    max-width: 500px;
+    margin: auto;
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -36,6 +42,8 @@ p{
 
 button {
 
+    
+
     border: 0;
     
     border-radius: 5px;
@@ -46,7 +54,9 @@ button {
     
     width: 200px;
     
-    font-size: 20px; font-weight: 500;
+    font-size: 20px; 
+    
+    font-weight: 500;
     
     cursor: pointer;
     
@@ -61,3 +71,37 @@ button {
     button:hover{
         background: var(--tg-theme-secondary-bg-color) ;
     }
+
+
+    #form {
+
+        display: none;
+        
+        text-align: center;
+        
+        
+        }
+        
+        input {
+        
+        width: 90%;
+        
+        outline: none;
+        
+        margin: 10px 5%;
+        
+        padding: 15px 10px; border: 2px solid silver;
+        
+        font-size: 14px;
+        
+        border-radius: 5px;
+        
+        }
+        
+        
+        
+        input:focus {
+        
+        border-color: #db5d5d;
+        
+        }
